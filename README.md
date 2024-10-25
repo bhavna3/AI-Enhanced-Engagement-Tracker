@@ -1,0 +1,2 @@
+# Bhavana_AI-Enhanced-Engagement-Tracker_Infosys_Internship_Oct2024
+The goal is to develop an AI-driven system to monitor and enhance the engagement levels of young learners in educational settings. The system will analyze various engagement metrics, such as attention span, participation, and interaction, to provide actionable insights for educators to improve teaching strategies and student outcomes.
