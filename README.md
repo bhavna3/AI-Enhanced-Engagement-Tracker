@@ -8,7 +8,8 @@
 ### **Developed Features:**
 
 1. **Image Blurring**
-   
+ Reduces noise and smoothens details in an image by averaging pixel values within a specified radius, enhancing visual clarity in high-noise scenarios.
+
    Input
    
     ![image](https://github.com/user-attachments/assets/30432e70-a8da-48a3-b718-b59ae54caa12)
@@ -18,8 +19,9 @@
    ![image](https://github.com/user-attachments/assets/a57947b1-34ac-4032-8b8f-34ea209e37ef)
 
 2. **Contour Detection**
-   
-     Input
+ Identifies and highlights the boundaries of objects within an image, useful for shape analysis and object detection tasks.
+
+   Input
    
     ![image](https://github.com/user-attachments/assets/30432e70-a8da-48a3-b718-b59ae54caa12)
 
@@ -29,7 +31,8 @@
    
    
 3. **Cropping**
-   
+   Selects and isolates a specific region of interest from an image, allowing focus on a particular area without modifying the original image dimensions.
+
    Input
    
     ![image](https://github.com/user-attachments/assets/30432e70-a8da-48a3-b718-b59ae54caa12)
@@ -40,6 +43,7 @@
 
    
 4. **Dilation and Erosion**
+   Morphological transformations that expand (dilation) or shrink (erosion) object boundaries in an image, enhancing or reducing specific features for analysis.
    Input
    
     ![image](https://github.com/user-attachments/assets/30432e70-a8da-48a3-b718-b59ae54caa12)
@@ -50,7 +54,8 @@
 
 
 5. **Edge Detection**
-    Input
+   Highlights the edges within an image, emphasizing significant transitions between colors or intensities, often used for feature extraction.
+   Input
    
     ![image](https://github.com/user-attachments/assets/30432e70-a8da-48a3-b718-b59ae54caa12)
 
@@ -59,7 +64,8 @@
    ![image](https://github.com/user-attachments/assets/77f66c0a-b0e2-4180-b55c-b026e415e564)
 
 6. **Histogram Equalization**
-    Input
+    Adjusts the intensity distribution across an image to improve contrast, revealing finer details in images with poor lighting or low contrast.
+   Input
    
     ![image](https://github.com/user-attachments/assets/30432e70-a8da-48a3-b718-b59ae54caa12)
 
@@ -68,16 +74,20 @@
     ![image](https://github.com/user-attachments/assets/d7da974e-3855-4501-935a-b8c826b45627)
 
 7. **HSV Conversion**
-    Input
+   Converts an image from RGB to HSV (Hue, Saturation, Value) color space, separating color information for more flexible color analysis and filtering.
+
+
+   Input
    
-    ![image](https://github.com/user-attachments/assets/30432e70-a8da-48a3-b718-b59ae54caa12
+    ![image](https://github.com/user-attachments/assets/30432e70-a8da-48a3-b718-b59ae54caa12)
 
     Output
 
     ![image](https://github.com/user-attachments/assets/f13a78fd-5fa3-4dc3-a137-83534409417f)
 
 8. **Image Stacking**
-    Input
+Combines multiple images in either horizontal or vertical layouts, useful for comparison and visualization of variations between images.
+   Input
    
     ![image](https://github.com/user-attachments/assets/30432e70-a8da-48a3-b718-b59ae54caa12)
 
@@ -89,7 +99,8 @@
 
 
 9. **Noise Addition**
-    Input
+Introduces random variations in pixel intensity, simulating real-world conditions for testing robustness in image processing algorithms.
+   Input
    
     ![image](https://github.com/user-attachments/assets/30432e70-a8da-48a3-b718-b59ae54caa12)
 
@@ -97,7 +108,8 @@
 
    ![image](https://github.com/user-attachments/assets/d1f69427-0e78-4e8a-a676-413c112cc985)
 
-11. **Morphological Transformations**
+10. **Morphological Transformations**
+ Applies operations like opening, closing, or morphological gradients to enhance structures or filter out noise in binary images.
     Input
    
     ![image](https://github.com/user-attachments/assets/30432e70-a8da-48a3-b718-b59ae54caa12)
@@ -106,7 +118,8 @@
 
     ![image](https://github.com/user-attachments/assets/de74299e-3394-4a2d-a370-0c110b5a6614)
 
-12. **Resizing**
+11. **Resizing**
+Alters the dimensions of an image, scaling it up or down while preserving its aspect ratio, important for consistent input size in model training.
     Input
    
     ![image](https://github.com/user-attachments/assets/30432e70-a8da-48a3-b718-b59ae54caa12)
@@ -115,7 +128,10 @@
 
     ![image](https://github.com/user-attachments/assets/f747821f-efe6-4ffa-bd96-b035751af3d4)
 
-13. **RGB to Grayscale Conversion**
+12. **RGB to Grayscale Conversion**
+Converts a colored image to grayscale by removing color information, simplifying analysis by reducing it to intensity variations.
+
+
     Input
    
     ![image](https://github.com/user-attachments/assets/30432e70-a8da-48a3-b718-b59ae54caa12)
@@ -124,19 +140,22 @@
 
     ![image](https://github.com/user-attachments/assets/15b74d50-ab28-41b9-a326-d21097b5f53e)
 
-14. **Rotation**
+13. **Rotation**
+Rotates an image by a specified angle, useful for adjusting orientation or performing geometric transformations.
     Input
    
-    ![image](https://github.com/user-attachments/assets/30432e70-a8da-48a3-b718-b59ae54caa12
+    ![image](https://github.com/user-attachments/assets/30432e70-a8da-48a3-b718-b59ae54caa12)
 
     Output
 
     ![image](https://github.com/user-attachments/assets/e2b99a6f-1406-4be3-af55-469f1bbda024)
 
-15. **Template Matching**
+14. **Template Matching**
+Searches for a specific pattern or template within an image, useful for object recognition and locating areas of interest.
+
     Input
    
-    ![image](https://github.com/user-attachments/assets/30432e70-a8da-48a3-b718-b59ae54caa12
+    ![image](https://github.com/user-attachments/assets/30432e70-a8da-48a3-b718-b59ae54caa12)
 
     Output
 
