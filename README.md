@@ -191,16 +191,17 @@ This function captures video from the webcam, displays it in real-time, and calc
 
 ![image](https://github.com/user-attachments/assets/6674e986-a218-4614-9f7f-90f04538d7b7)
 
-
 4. **Video Saving**
 
 This function captures live video and saves it to a specified output file.
 
-
+![image](https://github.com/user-attachments/assets/dd50cd6b-bf80-4355-9c1b-48cdd0d95757)
 
 5. **Video Streaming**
+   
 This function captures live video from the webcam and displays it in real-time.
 
+![image](https://github.com/user-attachments/assets/222dd0c3-06c5-4319-9280-58fb1e01846b)
 
 ---
 
@@ -214,11 +215,21 @@ This function captures live video from the webcam and displays it in real-time.
 
 1. **Labeling**
 
+Used to draw bounding boxes on images based on annotations in the label files.
+
+![image](https://github.com/user-attachments/assets/37278f85-bc6f-4b60-88e1-f854a8c924c3)
 
 2. **Data Segregation**
 
+It organizes images and their label files into matched and unmatched directories.
+
+![image](https://github.com/user-attachments/assets/5f6d85ca-b347-4803-9751-7a741b41bc8b)
 
 3. **Label Manipulation**
+
+It updates class numbers in label files for object detection tasks.
+
+![image](https://github.com/user-attachments/assets/530e6bfa-1f2a-45cb-9503-621b53dd4511)
 
 ---
 
