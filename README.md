@@ -132,7 +132,6 @@ Alters the dimensions of an image, scaling it up or down while preserving its as
 13. **RGB to Grayscale Conversion**
 Converts a colored image to grayscale by removing color information, simplifying analysis by reducing it to intensity variations.
 
-
     Input
    
     ![image](https://github.com/user-attachments/assets/30432e70-a8da-48a3-b718-b59ae54caa12)
@@ -188,12 +187,21 @@ This function reads and resizes two video files, concatenating them horizontally
 
 This function captures video from the webcam, displays it in real-time, and calculates the FPS.
 
+![image](https://github.com/user-attachments/assets/6605f8ad-f6d3-4538-8770-2c4b50e98150)
+
+![image](https://github.com/user-attachments/assets/6674e986-a218-4614-9f7f-90f04538d7b7)
+
+
 4. **Video Saving**
 
 This function captures live video and saves it to a specified output file.
 
+
+
 5. **Video Streaming**
 This function captures live video from the webcam and displays it in real-time.
+
+
 ---
 
 ## **Annotations**
@@ -203,8 +211,13 @@ This function captures live video from the webcam and displays it in real-time.
 - LabelImg: 1.8.6
 
 ### **Developed Features:**
+
 1. **Labeling**
+
+
 2. **Data Segregation**
+
+
 3. **Label Manipulation**
 
 ---
