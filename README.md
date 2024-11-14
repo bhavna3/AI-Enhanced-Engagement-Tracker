@@ -246,10 +246,29 @@ It updates class numbers in label files for object detection tasks.
 - os (standard library)
 
 ### **Developed Features:**
+
 1. **Face Recognition**
-2. **Attendance System**
+
+
+2. **Attendance Save**
+
+
 3. **Facial Landmarks**
+
+
 4. **Attention Score**
-5. **Excel Score Tracking**
-6. **Average Attention Score**
-7. **Tools for Testing and Evaluation**
+
+
+5. **Average Attention Score**
+
+
+6. **Excel_sc_dt**
+
+
+7. **excel_sc**
+
+
+8. **Tools**
+
+
+9. **Test**
