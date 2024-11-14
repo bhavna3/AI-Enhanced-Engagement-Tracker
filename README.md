@@ -172,11 +172,28 @@ Searches for a specific pattern or template within an image, useful for object r
 ### **Developed Features:**
 1. **Multi-video Processing**
 
-2. **Video Stacking**
-3. **Frame Rate Adjustment**
-4. **Video Saving**
-5. **Video Streaming**
+This function reads and displays images from a specified folder, printing the dimensions of each image.
 
+![image](https://github.com/user-attachments/assets/84c836a1-b012-4d39-86f8-67d589bd2ccf)
+
+![image](https://github.com/user-attachments/assets/1f157d55-3698-45d6-a860-eb4a2484e623)
+
+2. **Video Stacking**
+
+This function reads and resizes two video files, concatenating them horizontally.
+
+![image](https://github.com/user-attachments/assets/24882f64-aecf-47c5-bf63-c0aa21fee2a8)
+
+3. **Frame Rate Adjustment**
+
+This function captures video from the webcam, displays it in real-time, and calculates the FPS.
+
+4. **Video Saving**
+
+This function captures live video and saves it to a specified output file.
+
+5. **Video Streaming**
+This function captures live video from the webcam and displays it in real-time.
 ---
 
 ## **Annotations**
