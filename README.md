@@ -90,6 +90,7 @@ Combines multiple images in either horizontal or vertical layouts, useful for co
    Input
    
     ![image](https://github.com/user-attachments/assets/30432e70-a8da-48a3-b718-b59ae54caa12)
+   ![image](https://github.com/user-attachments/assets/ae466150-0368-47f5-9f36-266609e451ed)
 
     Output
 
@@ -98,7 +99,7 @@ Combines multiple images in either horizontal or vertical layouts, useful for co
    ![image](https://github.com/user-attachments/assets/2d7c5c38-593e-4bfa-97da-a2da6a223a73)
 
 
-9. **Noise Addition**
+10. **Noise Addition**
 Introduces random variations in pixel intensity, simulating real-world conditions for testing robustness in image processing algorithms.
    Input
    
@@ -108,7 +109,7 @@ Introduces random variations in pixel intensity, simulating real-world condition
 
    ![image](https://github.com/user-attachments/assets/d1f69427-0e78-4e8a-a676-413c112cc985)
 
-10. **Morphological Transformations**
+11. **Morphological Transformations**
  Applies operations like opening, closing, or morphological gradients to enhance structures or filter out noise in binary images.
     Input
    
@@ -118,7 +119,7 @@ Introduces random variations in pixel intensity, simulating real-world condition
 
     ![image](https://github.com/user-attachments/assets/de74299e-3394-4a2d-a370-0c110b5a6614)
 
-11. **Resizing**
+12. **Resizing**
 Alters the dimensions of an image, scaling it up or down while preserving its aspect ratio, important for consistent input size in model training.
     Input
    
@@ -128,7 +129,7 @@ Alters the dimensions of an image, scaling it up or down while preserving its as
 
     ![image](https://github.com/user-attachments/assets/f747821f-efe6-4ffa-bd96-b035751af3d4)
 
-12. **RGB to Grayscale Conversion**
+13. **RGB to Grayscale Conversion**
 Converts a colored image to grayscale by removing color information, simplifying analysis by reducing it to intensity variations.
 
 
@@ -140,7 +141,7 @@ Converts a colored image to grayscale by removing color information, simplifying
 
     ![image](https://github.com/user-attachments/assets/15b74d50-ab28-41b9-a326-d21097b5f53e)
 
-13. **Rotation**
+14. **Rotation**
 Rotates an image by a specified angle, useful for adjusting orientation or performing geometric transformations.
     Input
    
@@ -150,7 +151,7 @@ Rotates an image by a specified angle, useful for adjusting orientation or perfo
 
     ![image](https://github.com/user-attachments/assets/e2b99a6f-1406-4be3-af55-469f1bbda024)
 
-14. **Template Matching**
+15. **Template Matching**
 Searches for a specific pattern or template within an image, useful for object recognition and locating areas of interest.
 
     Input
@@ -170,6 +171,7 @@ Searches for a specific pattern or template within an image, useful for object r
 
 ### **Developed Features:**
 1. **Multi-video Processing**
+
 2. **Video Stacking**
 3. **Frame Rate Adjustment**
 4. **Video Saving**
