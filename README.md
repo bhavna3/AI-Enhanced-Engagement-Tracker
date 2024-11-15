@@ -12,17 +12,16 @@
 
 Input & Output
    
-![image](https://github.com/user-attachments/assets/8ab3c8ae-40f0-47ef-8033-5bdaff22bffd)![image](https://github.com/user-attachments/assets/911a35ca-7f37-4c9a-965e-3d113ffe274c)
+![image](https://github.com/user-attachments/assets/8ab3c8ae-40f0-47ef-8033-5bdaff22bffd)![image](https://github.com/user-attachments/assets/6d3c51db-ac9f-4a3b-a0ce-d72f430039cd)
 
-3. **Contour Detection**
+2. **Contour Detection**
  Identifies and highlights the boundaries of objects within an image, useful for shape analysis and object detection tasks.
 
    Input & Output
    
-    ![image](https://github.com/user-attachments/assets/86cd4778-86af-4da8-bf63-b7a3e63d6c3c)![image](https://github.com/user-attachments/assets/367dfef9-4e0f-4f34-83a2-40bf241eb273)
+    ![image](https://github.com/user-attachments/assets/86cd4778-86af-4da8-bf63-b7a3e63d6c3c)![image](https://github.com/user-attachments/assets/7e0161ea-454d-4bcf-b80d-e4ae2173047a)
 
-   
-4. **Cropping**
+3. **Cropping**
    Selects and isolates a specific region of interest from an image, allowing focus on a particular area without modifying the original image dimensions.
 
    Input & Output
@@ -32,7 +31,8 @@ Input & Output
    
 4. **Dilation and Erosion**
    Morphological transformations that expand (dilation) or shrink (erosion) object boundaries in an image, enhancing or reducing specific features for analysis.
-   Input
+
+    Input
    
     ![image](https://github.com/user-attachments/assets/e6cbe036-1117-43b1-b556-0838283b7b6d)
 
@@ -45,14 +45,14 @@ Input & Output
    Highlights the edges within an image, emphasizing significant transitions between colors or intensities, often used for feature extraction.
    Input & Output
    
-    ![image](https://github.com/user-attachments/assets/14363781-5576-400c-908c-3870fb83b96a)![image](https://github.com/user-attachments/assets/5e29ed78-3276-44c1-8cea-fef2e73ad6a0)
-
+    ![image](https://github.com/user-attachments/assets/14363781-5576-400c-908c-3870fb83b96a)![image](https://github.com/user-attachments/assets/e31e0912-75fe-43d4-b2bb-a93284e3bb7e)
 
 6. **Histogram Equalization**
     Adjusts the intensity distribution across an image to improve contrast, revealing finer details in images with poor lighting or low contrast.
    Input & Output
    
-    ![image](https://github.com/user-attachments/assets/bf0ebd0d-66f7-4068-8ed6-6eaf42951550)![image](https://github.com/user-attachments/assets/0df0e255-9218-47a9-a1b7-429effb36e1d)
+    ![image](https://github.com/user-attachments/assets/bf0ebd0d-66f7-4068-8ed6-6eaf42951550)![image](https://github.com/user-attachments/assets/7e17e582-3eeb-41b9-8fbd-42bc1bc3e1e6)
+
 
 
 7. **HSV Conversion**
@@ -65,54 +65,66 @@ Input & Output
 
 8. **Image Stacking**
 Combines multiple images in either horizontal or vertical layouts, useful for comparison and visualization of variations between images.
-   Input 
+
+    Input 
    
-   ![image](https://github.com/user-attachments/assets/01b79806-8937-4ed4-9146-e42093cedb5b)![image](https://github.com/user-attachments/assets/ae466150-0368-47f5-9f36-266609e451ed)
+   ![image](https://github.com/user-attachments/assets/01b79806-8937-4ed4-9146-e42093cedb5b)![image](https://github.com/user-attachments/assets/d972de8f-9fd1-4add-8c9d-6cda61d911ba)
+
    
    Output
-   ![image](https://github.com/user-attachments/assets/2fd50f51-ac94-4bdd-9e9f-f17e497793a0)![image](https://github.com/user-attachments/assets/2d7c5c38-593e-4bfa-97da-a2da6a223a73)
+   ![image](https://github.com/user-attachments/assets/2d7c5c38-593e-4bfa-97da-a2da6a223a73)![image](https://github.com/user-attachments/assets/2fd50f51-ac94-4bdd-9e9f-f17e497793a0)
 
 
 10. **Noise Addition**
 Introduces random variations in pixel intensity, simulating real-world conditions for testing robustness in image processing algorithms.
 
-   Input & Output
+   Input 
    
-![image](https://github.com/user-attachments/assets/284643a3-ef12-419c-8126-e666a26bb300)![image](https://github.com/user-attachments/assets/d1f69427-0e78-4e8a-a676-413c112cc985)
+![image](https://github.com/user-attachments/assets/284643a3-ef12-419c-8126-e666a26bb300)
+
+ Output
+ 
+![image](https://github.com/user-attachments/assets/d1f69427-0e78-4e8a-a676-413c112cc985)
 
 11. **Morphological Transformations**
  Applies operations like opening, closing, or morphological gradients to enhance structures or filter out noise in binary images.
 
-    Input & Output
+    Input 
    
- ![image](https://github.com/user-attachments/assets/b3ed00c2-6f86-4afe-a077-b2bec33fa6c1)![image](https://github.com/user-attachments/assets/de74299e-3394-4a2d-a370-0c110b5a6614)
+ ![image](https://github.com/user-attachments/assets/b3ed00c2-6f86-4afe-a077-b2bec33fa6c1)
+ 
+ Output
+ 
+ ![image](https://github.com/user-attachments/assets/de74299e-3394-4a2d-a370-0c110b5a6614)
 
 12. **Resizing**
 Alters the dimensions of an image, scaling it up or down while preserving its aspect ratio, important for consistent input size in model training.
 
     Input & Output
    
- ![image](https://github.com/user-attachments/assets/58ad238e-a261-48d4-8a5e-08e05092f126)![image](https://github.com/user-attachments/assets/f747821f-efe6-4ffa-bd96-b035751af3d4)
+ ![image](https://github.com/user-attachments/assets/58ad238e-a261-48d4-8a5e-08e05092f126)![image](https://github.com/user-attachments/assets/83e69e6d-44f8-4d85-88a1-32ff1a9e54e9)
 
 13. **RGB to Grayscale Conversion**
 Converts a colored image to grayscale by removing color information, simplifying analysis by reducing it to intensity variations.
 
     Input & Output
    
-  ![image](https://github.com/user-attachments/assets/bf431c70-3056-4620-9b18-b01631069ace)![image](https://github.com/user-attachments/assets/15b74d50-ab28-41b9-a326-d21097b5f53e)
+  ![image](https://github.com/user-attachments/assets/bf431c70-3056-4620-9b18-b01631069ace)![image](https://github.com/user-attachments/assets/bc6bd0ff-7969-462f-87c0-31864da368e4)
 
 14. **Rotation**
 Rotates an image by a specified angle, useful for adjusting orientation or performing geometric transformations.
     Input & Output
    
-   ![image](https://github.com/user-attachments/assets/d79d1c1a-babd-4789-8d74-332252a7b295)![image](https://github.com/user-attachments/assets/e2b99a6f-1406-4be3-af55-469f1bbda024)
+   ![image](https://github.com/user-attachments/assets/d79d1c1a-babd-4789-8d74-332252a7b295)![image](https://github.com/user-attachments/assets/15ab6397-9b87-4229-b69e-7e1154a8f7ef)
+
 
 15. **Template Matching**
 Searches for a specific pattern or template within an image, useful for object recognition and locating areas of interest.
 
     Input & Output
    
-    ![image](https://github.com/user-attachments/assets/423b4960-f7c9-4854-ab93-a0cb163392af)![image](https://github.com/user-attachments/assets/949d51b2-6677-4ec6-990c-e4b5fefc57d6)
+    ![image](https://github.com/user-attachments/assets/423b4960-f7c9-4854-ab93-a0cb163392af)![image](https://github.com/user-attachments/assets/aebe2567-4621-4f2f-8196-0bdc71295908)
+
 
 ---
 
@@ -230,11 +242,20 @@ Calculates attention scores using face recognition and screenshots are saved for
 
 5. **Average Attention Score**
 
+Calculates average attention scores using face recognition and screenshots are saved for analysis.
+
+![image](https://github.com/user-attachments/assets/1e095512-6861-40de-800e-738aabfd6209)
 
 6. **Excel_sc_dt**
 
+Captures video, logs attendance, and saves screenshots and tracks attention.
+
+
 
 7. **excel_sc**
+
+An alternative configuration for logging and capturing screenshots.
+
 
 
 8. **Tools**
@@ -243,12 +264,8 @@ Additional tools and utilities for face recognition, the events are logged in an
 
 ![image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)![image](https://github.com/user-attachments/assets/eb4ecba8-8d1b-430f-a31d-9ee566a919eb)
 
-
 9. **Test**
 
 Testing helper functions and utilities for face recognition, the events are logged in an Excel file.
 
-![image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)
-
-
-
+![image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)![image](https://github.com/user-attachments/assets/6317f1c7-70b0-435b-bc7b-385c275f7c60)
