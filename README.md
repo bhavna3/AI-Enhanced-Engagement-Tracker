@@ -228,35 +228,33 @@ When the face is recognized, the event is logged with the date and time in an Ex
 
 Uses dlib's landmark predictor to monitor attentiveness based on head pose, logging scores and saving annotated screenshots, the event is logged in an Excel file.
 
-![image](https://github.com/user-attachments/assets/aad7ac9a-66f0-47ab-ad38-5680cf5a25f3)
-
+![image](https://github.com/user-attachments/assets/aad7ac9a-66f0-47ab-ad38-5680cf5a25f3)![image](https://github.com/user-attachments/assets/92cd9d54-a05b-4758-85db-b11d242088be)
 
 
 4. **Attention Score**
 
 Calculates attention scores using face recognition and screenshots are saved for analysis.
 
-![image](https://github.com/user-attachments/assets/1e095512-6861-40de-800e-738aabfd6209)
-
-
+![image](https://github.com/user-attachments/assets/1e095512-6861-40de-800e-738aabfd6209)![image](https://github.com/user-attachments/assets/0a670cc0-f8d9-4986-86fe-961c148c1036)
 
 5. **Average Attention Score**
 
 Calculates average attention scores using face recognition and screenshots are saved for analysis.
 
-![image](https://github.com/user-attachments/assets/1e095512-6861-40de-800e-738aabfd6209)
+![image](https://github.com/user-attachments/assets/1e095512-6861-40de-800e-738aabfd6209)![image](https://github.com/user-attachments/assets/a40b3e02-f501-428d-bc6b-9ee6aee2fd06)
+
 
 6. **Excel_sc_dt**
 
 Captures video, logs attendance, and saves screenshots and tracks attention.
 
-
+![image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)![image](https://github.com/user-attachments/assets/7e611658-9421-4e11-93ce-27d862d25fad)
 
 7. **excel_sc**
 
 An alternative configuration for logging and capturing screenshots.
 
-
+![image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)![image](https://github.com/user-attachments/assets/58282cb3-07d6-41cc-9fa3-e393f7fbd66f)
 
 8. **Tools**
 
