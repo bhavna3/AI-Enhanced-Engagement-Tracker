@@ -50,7 +50,7 @@
 
    Output
 
-   ![image](https://github.com/user-attachments/assets/ab4228bd-8227-480b-b8ce-d0606ea8601e)                          ![image](https://github.com/user-attachments/assets/2ddbde52-cfe6-41ab-80bc-23d260bf31ac)
+   ![image](https://github.com/user-attachments/assets/ab4228bd-8227-480b-b8ce-d0606ea8601e)![image](https://github.com/user-attachments/assets/2ddbde52-cfe6-41ab-80bc-23d260bf31ac)
 
 
 5. **Edge Detection**
@@ -251,17 +251,22 @@ It updates class numbers in label files for object detection tasks.
 
 Face detection using the face_recognition library.
 
-![image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)
-
-![image](https://github.com/user-attachments/assets/5424afa0-aeab-4196-a40a-879781328f5b)
+![image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)![image](https://github.com/user-attachments/assets/5424afa0-aeab-4196-a40a-879781328f5b)
 
 
 2. **Attendance Save**
+
+When the face is recognized, the event is logged with the date and time in an Excel file.
 
 ![image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)![image](https://github.com/user-attachments/assets/a3043b08-9b67-40f8-8bbe-e4cd27032ede)
 
 
 3. **Facial Landmarks**
+
+Uses dlib's landmark predictor to monitor attentiveness based on head pose, logging scores and saving annotated screenshots, the event is logged in an Excel file.
+
+![image](https://github.com/user-attachments/assets/aad7ac9a-66f0-47ab-ad38-5680cf5a25f3)
+
 
 
 4. **Attention Score**
@@ -283,5 +288,16 @@ Calculates attention scores using face recognition and screenshots are saved for
 
 8. **Tools**
 
+Additional tools and utilities for face recognition, the events are logged in an Excel file.
+
+![image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)![image](https://github.com/user-attachments/assets/eb4ecba8-8d1b-430f-a31d-9ee566a919eb)
+
 
 9. **Test**
+
+Testing helper functions and utilities for face recognition, the events are logged in an Excel file.
+
+![image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)
+
+
+
