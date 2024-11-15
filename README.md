@@ -249,14 +249,27 @@ It updates class numbers in label files for object detection tasks.
 
 1. **Face Recognition**
 
+Face detection using the face_recognition library.
+
+![image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)
+
+![image](https://github.com/user-attachments/assets/5424afa0-aeab-4196-a40a-879781328f5b)
+
 
 2. **Attendance Save**
+
+![image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)![image](https://github.com/user-attachments/assets/a3043b08-9b67-40f8-8bbe-e4cd27032ede)
 
 
 3. **Facial Landmarks**
 
 
 4. **Attention Score**
+
+Calculates attention scores using face recognition and screenshots are saved for analysis.
+
+![image](https://github.com/user-attachments/assets/1e095512-6861-40de-800e-738aabfd6209)
+
 
 
 5. **Average Attention Score**
