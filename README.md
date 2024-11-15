@@ -10,23 +10,24 @@
 1. **Image Blurring**
  Reduces noise and smoothens details in an image by averaging pixel values within a specified radius, enhancing visual clarity in high-noise scenarios.
 
-   Input & Output
-   ![image](https://github.com/user-attachments/assets/8ab3c8ae-40f0-47ef-8033-5bdaff22bffd)![image](https://github.com/user-attachments/assets/a57947b1-34ac-4032-8b8f-34ea209e37ef)
+Input & Output
+   
+![image](https://github.com/user-attachments/assets/8ab3c8ae-40f0-47ef-8033-5bdaff22bffd)![image](https://github.com/user-attachments/assets/911a35ca-7f37-4c9a-965e-3d113ffe274c)
 
-2. **Contour Detection**
+3. **Contour Detection**
  Identifies and highlights the boundaries of objects within an image, useful for shape analysis and object detection tasks.
 
    Input & Output
    
-    ![image](https://github.com/user-attachments/assets/86cd4778-86af-4da8-bf63-b7a3e63d6c3c)![image](https://github.com/user-attachments/assets/ee2fd89c-4dbb-41f9-8683-5e3ed0db437c)
+    ![image](https://github.com/user-attachments/assets/86cd4778-86af-4da8-bf63-b7a3e63d6c3c)![image](https://github.com/user-attachments/assets/367dfef9-4e0f-4f34-83a2-40bf241eb273)
+
    
-   
-3. **Cropping**
+4. **Cropping**
    Selects and isolates a specific region of interest from an image, allowing focus on a particular area without modifying the original image dimensions.
 
    Input & Output
    
-    ![image](https://github.com/user-attachments/assets/057034e2-c4b0-42b4-95ef-aa4944b6fdc6)![image](https://github.com/user-attachments/assets/0384fe08-6433-4a7f-9cbb-e19e14e214a9)
+![image](https://github.com/user-attachments/assets/057034e2-c4b0-42b4-95ef-aa4944b6fdc6)![image](https://github.com/user-attachments/assets/0384fe08-6433-4a7f-9cbb-e19e14e214a9)
 
    
 4. **Dilation and Erosion**
@@ -37,27 +38,30 @@
 
    Output
 
-   ![image](https://github.com/user-attachments/assets/ab4228bd-8227-480b-b8ce-d0606ea8601e)![image](https://github.com/user-attachments/assets/2ddbde52-cfe6-41ab-80bc-23d260bf31ac)
-
+![image](https://github.com/user-attachments/assets/d36d9985-a992-478a-8ea9-1ad0c8510e9a)
+![image](https://github.com/user-attachments/assets/69cd7e1f-6b3b-434c-ac13-f8e045cff17a)
 
 5. **Edge Detection**
    Highlights the edges within an image, emphasizing significant transitions between colors or intensities, often used for feature extraction.
    Input & Output
    
-    ![image](https://github.com/user-attachments/assets/14363781-5576-400c-908c-3870fb83b96a)![image](https://github.com/user-attachments/assets/77f66c0a-b0e2-4180-b55c-b026e415e564)
+    ![image](https://github.com/user-attachments/assets/14363781-5576-400c-908c-3870fb83b96a)![image](https://github.com/user-attachments/assets/5e29ed78-3276-44c1-8cea-fef2e73ad6a0)
+
 
 6. **Histogram Equalization**
     Adjusts the intensity distribution across an image to improve contrast, revealing finer details in images with poor lighting or low contrast.
    Input & Output
    
-    ![image](https://github.com/user-attachments/assets/bf0ebd0d-66f7-4068-8ed6-6eaf42951550)![image](https://github.com/user-attachments/assets/d7da974e-3855-4501-935a-b8c826b45627)
+    ![image](https://github.com/user-attachments/assets/bf0ebd0d-66f7-4068-8ed6-6eaf42951550)![image](https://github.com/user-attachments/assets/0df0e255-9218-47a9-a1b7-429effb36e1d)
+
 
 7. **HSV Conversion**
    Converts an image from RGB to HSV (Hue, Saturation, Value) color space, separating color information for more flexible color analysis and filtering.
 
    Input & Output
    
-    ![image](https://github.com/user-attachments/assets/51e28532-7062-47c3-81a4-5acf96d53f27)![image](https://github.com/user-attachments/assets/f13a78fd-5fa3-4dc3-a137-83534409417f)
+    ![image](https://github.com/user-attachments/assets/51e28532-7062-47c3-81a4-5acf96d53f27)![image](https://github.com/user-attachments/assets/084bb20f-926c-4b72-b49b-2ed183e06d7a)
+
 
 8. **Image Stacking**
 Combines multiple images in either horizontal or vertical layouts, useful for comparison and visualization of variations between images.
@@ -71,18 +75,21 @@ Combines multiple images in either horizontal or vertical layouts, useful for co
 
 10. **Noise Addition**
 Introduces random variations in pixel intensity, simulating real-world conditions for testing robustness in image processing algorithms.
+
    Input & Output
    
 ![image](https://github.com/user-attachments/assets/284643a3-ef12-419c-8126-e666a26bb300)![image](https://github.com/user-attachments/assets/d1f69427-0e78-4e8a-a676-413c112cc985)
 
 11. **Morphological Transformations**
  Applies operations like opening, closing, or morphological gradients to enhance structures or filter out noise in binary images.
+
     Input & Output
    
  ![image](https://github.com/user-attachments/assets/b3ed00c2-6f86-4afe-a077-b2bec33fa6c1)![image](https://github.com/user-attachments/assets/de74299e-3394-4a2d-a370-0c110b5a6614)
 
 12. **Resizing**
 Alters the dimensions of an image, scaling it up or down while preserving its aspect ratio, important for consistent input size in model training.
+
     Input & Output
    
  ![image](https://github.com/user-attachments/assets/58ad238e-a261-48d4-8a5e-08e05092f126)![image](https://github.com/user-attachments/assets/f747821f-efe6-4ffa-bd96-b035751af3d4)
