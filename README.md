@@ -72,10 +72,11 @@ Combines multiple images in either horizontal or vertical layouts, useful for co
 
    
    Output
+   
    ![image](https://github.com/user-attachments/assets/2d7c5c38-593e-4bfa-97da-a2da6a223a73)![image](https://github.com/user-attachments/assets/2fd50f51-ac94-4bdd-9e9f-f17e497793a0)
 
 
-10. **Noise Addition**
+9. **Noise Addition**
 Introduces random variations in pixel intensity, simulating real-world conditions for testing robustness in image processing algorithms.
 
    Input 
@@ -86,7 +87,7 @@ Introduces random variations in pixel intensity, simulating real-world condition
  
 ![image](https://github.com/user-attachments/assets/d1f69427-0e78-4e8a-a676-413c112cc985)
 
-11. **Morphological Transformations**
+10. **Morphological Transformations**
  Applies operations like opening, closing, or morphological gradients to enhance structures or filter out noise in binary images.
 
     Input 
@@ -97,28 +98,28 @@ Introduces random variations in pixel intensity, simulating real-world condition
  
  ![image](https://github.com/user-attachments/assets/de74299e-3394-4a2d-a370-0c110b5a6614)
 
-12. **Resizing**
+11. **Resizing**
 Alters the dimensions of an image, scaling it up or down while preserving its aspect ratio, important for consistent input size in model training.
 
     Input & Output
    
  ![image](https://github.com/user-attachments/assets/58ad238e-a261-48d4-8a5e-08e05092f126)![image](https://github.com/user-attachments/assets/83e69e6d-44f8-4d85-88a1-32ff1a9e54e9)
 
-13. **RGB to Grayscale Conversion**
+12. **RGB to Grayscale Conversion**
 Converts a colored image to grayscale by removing color information, simplifying analysis by reducing it to intensity variations.
 
     Input & Output
    
   ![image](https://github.com/user-attachments/assets/bf431c70-3056-4620-9b18-b01631069ace)![image](https://github.com/user-attachments/assets/bc6bd0ff-7969-462f-87c0-31864da368e4)
 
-14. **Rotation**
+13. **Rotation**
 Rotates an image by a specified angle, useful for adjusting orientation or performing geometric transformations.
     Input & Output
    
    ![image](https://github.com/user-attachments/assets/d79d1c1a-babd-4789-8d74-332252a7b295)![image](https://github.com/user-attachments/assets/15ab6397-9b87-4229-b69e-7e1154a8f7ef)
 
 
-15. **Template Matching**
+14. **Template Matching**
 Searches for a specific pattern or template within an image, useful for object recognition and locating areas of interest.
 
     Input & Output
