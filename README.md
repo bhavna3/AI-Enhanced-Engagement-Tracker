@@ -268,3 +268,26 @@ Additional tools and utilities for face recognition, the events are logged in an
 Testing helper functions and utilities for face recognition, the events are logged in an Excel file.
 
 ![image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)![image](https://github.com/user-attachments/assets/6317f1c7-70b0-435b-bc7b-385c275f7c60)
+
+---
+
+## **Additional Features**
+
+### **Detect Emotions**
+
+This code implements a facial emotion detection system using DeepFace and OpenCV libraries. It takes an image input, detects faces using OpenCV, and analyzes emotions (like happy, sad, angry, etc.) using the DeepFace framework. The program draws bounding boxes around detected faces and displays the dominant emotion with its probability. Results are visualized using matplotlib, showing both the original and annotated images side by side, along with a breakdown of emotion probabilities. The code is structured with separate functions for image loading, result visualization, and main processing, making it modular and easy to maintain.
+
+1. **Anger Detection**
+
+![image](https://github.com/user-attachments/assets/1792b2be-1dcd-40bf-9349-d0c842648ec8)
+
+2. **Happiness Detection**
+
+![image](https://github.com/user-attachments/assets/461ce1b2-fbb7-46bb-ad8f-07e5290fa0d1)
+
+3. **Suprise Detection**
+
+![image](https://github.com/user-attachments/assets/5e49134e-784a-4e5e-b641-d4d811d032a0)
+
+
+
