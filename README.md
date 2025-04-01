@@ -159,13 +159,13 @@ This function captures video from the webcam, displays it in real-time, and calc
 
 This function captures live video and saves it to a specified output file.
 
-![image](https://github.com/user-attachments/assets/dd50cd6b-bf80-4355-9c1b-48cdd0d95757)
+image](https://github.com/user-attachments/assets/dd50cd6b-bf80-4355-9c1b-48cdd0d95757)
 
 5. **Video Streaming**
    
 This function captures live video from the webcam and displays it in real-time.
 
-![image](https://github.com/user-attachments/assets/222dd0c3-06c5-4319-9280-58fb1e01846b)
+image](https://github.com/user-attachments/assets/222dd0c3-06c5-4319-9280-58fb1e01846b)
 
 ---
 
@@ -215,59 +215,59 @@ It updates class numbers in label files for object detection tasks.
 
 Face detection using the face_recognition library.
 
-![image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)![image](https://github.com/user-attachments/assets/5424afa0-aeab-4196-a40a-879781328f5b)
+image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)![image](https://github.com/user-attachments/assets/5424afa0-aeab-4196-a40a-879781328f5b)
 
 
 2. **Attendance Save**
 
 When the face is recognized, the event is logged with the date and time in an Excel file.
 
-![image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)![image](https://github.com/user-attachments/assets/a3043b08-9b67-40f8-8bbe-e4cd27032ede)
+image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)![image](https://github.com/user-attachments/assets/a3043b08-9b67-40f8-8bbe-e4cd27032ede)
 
 
 3. **Facial Landmarks**
 
 Uses dlib's landmark predictor to monitor attentiveness based on head pose, logging scores and saving annotated screenshots, the event is logged in an Excel file.
 
-![image](https://github.com/user-attachments/assets/aad7ac9a-66f0-47ab-ad38-5680cf5a25f3)![image](https://github.com/user-attachments/assets/92cd9d54-a05b-4758-85db-b11d242088be)
+image](https://github.com/user-attachments/assets/aad7ac9a-66f0-47ab-ad38-5680cf5a25f3)![image](https://github.com/user-attachments/assets/92cd9d54-a05b-4758-85db-b11d242088be)
 
 
 4. **Attention Score**
 
 Calculates attention scores using face recognition and screenshots are saved for analysis.
 
-![image](https://github.com/user-attachments/assets/1e095512-6861-40de-800e-738aabfd6209)![image](https://github.com/user-attachments/assets/0a670cc0-f8d9-4986-86fe-961c148c1036)
+image](https://github.com/user-attachments/assets/1e095512-6861-40de-800e-738aabfd6209)![image](https://github.com/user-attachments/assets/0a670cc0-f8d9-4986-86fe-961c148c1036)
 
 5. **Average Attention Score**
 
 Calculates average attention scores using face recognition and screenshots are saved for analysis.
 
-![image](https://github.com/user-attachments/assets/1e095512-6861-40de-800e-738aabfd6209)![image](https://github.com/user-attachments/assets/a40b3e02-f501-428d-bc6b-9ee6aee2fd06)
+image](https://github.com/user-attachments/assets/1e095512-6861-40de-800e-738aabfd6209)![image](https://github.com/user-attachments/assets/a40b3e02-f501-428d-bc6b-9ee6aee2fd06)
 
 
 6. **Excel_sc_dt**
 
 Captures video, logs attendance, and saves screenshots and tracks attention.
 
-![image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)![image](https://github.com/user-attachments/assets/7e611658-9421-4e11-93ce-27d862d25fad)
+image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)![image](https://github.com/user-attachments/assets/7e611658-9421-4e11-93ce-27d862d25fad)
 
 7. **excel_sc**
 
 An alternative configuration for logging and capturing screenshots.
 
-![image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)![image](https://github.com/user-attachments/assets/58282cb3-07d6-41cc-9fa3-e393f7fbd66f)
+image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)![image](https://github.com/user-attachments/assets/58282cb3-07d6-41cc-9fa3-e393f7fbd66f)
 
 8. **Tools**
 
 Additional tools and utilities for face recognition, the events are logged in an Excel file.
 
-![image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)![image](https://github.com/user-attachments/assets/eb4ecba8-8d1b-430f-a31d-9ee566a919eb)
+image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)![image](https://github.com/user-attachments/assets/eb4ecba8-8d1b-430f-a31d-9ee566a919eb)
 
 9. **Test**
 
 Testing helper functions and utilities for face recognition, the events are logged in an Excel file.
 
-![image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)![image](https://github.com/user-attachments/assets/6317f1c7-70b0-435b-bc7b-385c275f7c60)
+image](https://github.com/user-attachments/assets/a5f8ac69-c191-4ebd-9854-f20cc6b5d8bc)![image](https://github.com/user-attachments/assets/6317f1c7-70b0-435b-bc7b-385c275f7c60)
 
 ---
 
